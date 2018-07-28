@@ -453,7 +453,7 @@ a:hover {
 }
 
 .theme-setting .content-theme-setting ul li[data-color='color-1'] {
-    background-color: #ffdd00;
+    background-color: #50bcb6;
 }
 
 .theme-setting .content-theme-setting ul li[data-color='color-2'] {
@@ -3847,7 +3847,7 @@ footer .widget .title-widget {
 
     padding: 0 8px;
 
-    color: #2b2b2b;
+    color: #0abab5;
 }
 
 .social-footer .link:hover {
@@ -3860,7 +3860,7 @@ footer .widget .title-widget {
 
     text-align: center;
 
-    color: #2b2b2b;
+    color: #0abab5;
 }
 
 /*==============================
