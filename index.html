@@ -9,6 +9,7 @@
         <link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700">
         <link type="text/css" rel="stylesheet" href="assets/font/font-icon/font-awesome/css/font-awesome.css">
         <link type="text/css" rel="stylesheet" href="assets/font/font-icon/font-flaticon/flaticon.css">
+          <link type="text/css" rel="stylesheet" href="assets/font/moderna/moderna.css">
         <!-- LIBRARY CSS-->
         <link type="text/css" rel="stylesheet" href="assets/libs/bootstrap/css/bootstrap.min.css">
         <link type="text/css" rel="stylesheet" href="assets/libs/animate/animate.css">
@@ -295,7 +296,7 @@
                                 <div class="homepage-banner-warpper">
                                     <div class="homepage-banner-content">
                                         <div class="group-title">
-                                            <h1 style="font-size:110px;font-weight:bold;padding-top:30px;">The tixs</h1>
+                                            <h1 class="titulo" style="font-size:100px;padding-top:60px;">The tixs</h1>
                                             <div style="text-align:center;">
                                                
                                             </div>    
@@ -1317,7 +1318,7 @@
                                                     <i class="icons fa fa-play"></i>
                                                 </div>
                                                 <div class="video-button-close"></div>
-                                                <iframe src="https://www.youtube.com/embed/moOosWuoDyA?rel=0" allowfullscreen="allowfullscreen" class="video-embed"></iframe>
+                                               <!--  <iframe src="https://www.youtube.com/embed/moOosWuoDyA?rel=0" allowfullscreen="allowfullscreen" class="video-embed"></iframe> -->
                                             </div>
                                         </div>
                                     </div>
@@ -1992,7 +1993,7 @@
                         <div class="container">
                             <div class="footer-main-wrapper">
                                 <a href="index.html" class="logo-footer">
-                                    <img src="assets/images/logo/logo-white-color-1.png" alt="" class="img-responsive" />
+                                    <img src="assets/images/logo/logo-black-color-1.png" alt="" class="img-responsive" />
                                 </a>
                                 <div class="row">
                                     <div class="col-2">
@@ -2250,12 +2251,12 @@
         <script>
             if ((Cookies.get('color-skin') != undefined) && (Cookies.get('color-skin') != 'color-1'))
             {
-                $('.logo .header-logo img ,.logo-footer img, .group-logo .img-logo').attr('src', 'assets/images/logo/logo-white-' + Cookies.get('color-skin') + '.png');
+                $('.logo .header-logo img ,.logo-footer img, .group-logo .img-logo').attr('src', 'assets/images/logo/logo-black-' + Cookies.get('color-skin') + '.png');
                 $('.logo-black img').attr('src', 'assets/images/logo/logo-black-' + Cookies.get('color-skin') + '.png');
             }
             else if ((Cookies.get('color-skin') == undefined) || (Cookies.get('color-skin') == 'color-1'))
             {
-                $('.logo .header-logo img , .logo-footer img, .group-logo .img-logo').attr('src', 'assets/images/logo/logo-white-color-1.png');
+                $('.logo .header-logo img ,  .group-logo .img-logo').attr('src', 'assets/images/logo/logo-white-color-1.png');
                 $('.logo-black img').attr('src', 'assets/images/logo/logo-black-color-1.png');
             }
         </script>

@@ -2042,7 +2042,15 @@ a:hover {
 
     color: #8e8e8e;
 }
+.titulo{
+    font-family: 'moderna';
+    /*font-size: 80px;*/
 
+  /*  position: absolute;
+    left: 0;
+
+    content: '\f10c';*/
+}
 .booking-widget ul li .link:before {
     font-family: 'FontAwesome';
     font-size: 7px;

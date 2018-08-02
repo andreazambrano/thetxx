@@ -1,0 +1,15 @@
+@font-face {
+   /* font-family: "moderna";
+    src: url("flaticon.eot");
+    src: url("flaticon.eot?#iefix") format("embedded-opentype"),
+    url("flaticon.woff") format("woff"),
+    url("flaticon.ttf") format("truetype"),
+    url("flaticon.svg#flaticon") format("svg");
+    font-weight: normal;
+    font-style: normal;*/
+    font-family: moderna;
+     font-weight: normal;
+    font-style: normal;
+    src: url(assets/font/moderna/moderna.ttf) format(‘truetype’);
+}
+
