@@ -3645,7 +3645,7 @@ a:hover {
     text-align: center;
 
     color: #8e8e8e;
-    background-color: #121212;
+    background-color: #ffffff;;
     background-image: url('../images/background/bg-footer.jpg');
     background-repeat: repeat;
     background-attachment: fixed;
@@ -3787,7 +3787,7 @@ footer .widget .title-widget {
 /*----------  4.3. Hyperlink  ----------*/
 
 .hyperlink {
-    background-color: #121212;
+    background-color: #FBFBFB;
 }
 
 .hyperlink .slide-logo-wrapper {
