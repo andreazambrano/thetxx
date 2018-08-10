@@ -1316,12 +1316,12 @@
 
 .tours-layout:hover .image-wrapper .link {
     -webkit-filter: blur(1px);
-    -webkit-filter: url(../images/blur.svg#svg-blur);
+ /*   -webkit-filter: url(../images/blur.svg#svg-blur);*/
        -moz-filter: blur(1px);
         -ms-filter: blur(1px);
     filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='1');
             filter: blur(1px);
-            filter: url(../images/blur.svg#svg-blur);
+       /*     filter: url(../images/blur.svg#svg-blur);*/
 }
 
 .tours-layout:hover .image-wrapper .link img {
