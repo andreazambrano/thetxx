@@ -1,0 +1,73 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 23/08/2018 23:29
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-booking:before { content: "\f100"; }
+.flaticon-flight:before { content: "\f101"; }
+.flaticon-social:before { content: "\f102"; }
+.flaticon-schedule:before { content: "\f103"; }
+.flaticon-secure-data:before { content: "\f104"; }
+.flaticon-safety:before { content: "\f105"; }
+.flaticon-account:before { content: "\f106"; }
+.flaticon-subscription:before { content: "\f107"; }
+.flaticon-partner:before { content: "\f108"; }
+.flaticon-research:before { content: "\f109"; }
+.flaticon-cloud:before { content: "\f10a"; }
+.flaticon-hosting:before { content: "\f10b"; }
+.flaticon-connection:before { content: "\f10c"; }
+.flaticon-confirm-schedule:before { content: "\f10d"; }
+.flaticon-confirm-schedule-1:before { content: "\f10e"; }
+.flaticon-confirmed-action-cloud:before { content: "\f10f"; }
+.flaticon-recycling:before { content: "\f110"; }
+    
+    $font-Flaticon-booking: "\f100";
+    $font-Flaticon-flight: "\f101";
+    $font-Flaticon-social: "\f102";
+    $font-Flaticon-schedule: "\f103";
+    $font-Flaticon-secure-data: "\f104";
+    $font-Flaticon-safety: "\f105";
+    $font-Flaticon-account: "\f106";
+    $font-Flaticon-subscription: "\f107";
+    $font-Flaticon-partner: "\f108";
+    $font-Flaticon-research: "\f109";
+    $font-Flaticon-cloud: "\f10a";
+    $font-Flaticon-hosting: "\f10b";
+    $font-Flaticon-connection: "\f10c";
+    $font-Flaticon-confirm-schedule: "\f10d";
+    $font-Flaticon-confirm-schedule-1: "\f10e";
+    $font-Flaticon-confirmed-action-cloud: "\f10f";
+    $font-Flaticon-recycling: "\f110";
